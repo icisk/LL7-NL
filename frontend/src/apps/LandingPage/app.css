@@ -1,0 +1,86 @@
+
+.button-switch-size {
+    background-color: white;
+    padding: 1.2em 0em;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    border-radius: 6px;
+    border-width: 3px;  
+    border-style: solid;
+    width:250px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);   
+    margin-top: 30px;
+}
+.danger{
+    color: white;
+    background-color: red;
+}
+.no-danger{
+    color: white;
+    background-color: #04AA6D;
+}
+.low-danger{
+    color: white;
+    background-color: orange;
+}
+.neutral {
+
+    color: black;
+    background-color: lightblue;
+}
+
+.middle-choice-button { 
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    border-radius: 0px !important;
+    /* width: 30%; */
+}
+.middle-choice-button.inactive {
+    background-color: #9ba5ab !important;
+    color: white !important;
+
+}
+
+.middle-choice-button.inactive:hover {
+    background-color: #708894 !important;
+    color: white !important;
+}
+
+
+.right-choice-button {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    border-radius: 0px 5px 5px 0px !important;
+    /* width: 30%; */
+}
+
+.right-choice-button.inactive {
+    background-color: #9ba5ab !important;
+    color: white !important;
+}
+.right-choice-button.inactive:hover {
+    background-color: #708894 !important;
+    color: white !important;
+}
+.left-choice-button.inactive:hover {
+    background-color: #708894 !important;
+    color: white !important;
+}
+
+
+
+.left-choice-button.inactive {
+    background-color: #9ba5ab !important;
+    color: white !important;  
+}
+
+.left-choice-button {
+    margin-right: 0px !important;
+    border-radius: 5px 0px 0px 5px !important;
+    /* width: 30%; */
+
+}

@@ -1,0 +1,14 @@
+export const monthlyThresholds = {
+    january: 1000,
+    february: 1000,
+    march: 1000,
+    april: 1000,
+    may: 1400,
+    june: 1300,
+    july: 1200,
+    august: 1100,
+    september: 1000,
+    october: 1000,
+    november: 1000,
+    december: 1000,
+};

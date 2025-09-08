@@ -1,0 +1,40 @@
+.show-historicals {
+    font-size: 1em;
+    margin-right: 0px;
+}
+.right-choice-button {
+    margin-left: 0px !important;
+    border-radius: 0px 5px 5px 0px !important;
+}
+
+.right-choice-button.inactive {
+    background-color: #9ba5ab !important;
+    color: white !important;
+}
+.right-choice-button.inactive:hover {
+    background-color: #708894 !important;
+    color: white !important;
+}
+.left-choice-button.inactive:hover {
+    background-color: #708894 !important;
+    color: white !important;
+}
+
+
+
+.left-choice-button.inactive {
+    background-color: #9ba5ab !important;
+    color: white !important;  
+}
+
+.left-choice-button {
+    margin-right: 0px !important;
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    font-weight: bold;
+}

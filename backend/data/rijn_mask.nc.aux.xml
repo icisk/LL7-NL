@@ -1,0 +1,24 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="lat#axis">Y</MDI>
+    <MDI key="lat#long_name">latitude</MDI>
+    <MDI key="lat#standard_name">latitude</MDI>
+    <MDI key="lat#units">degrees_north</MDI>
+    <MDI key="lat#_FillValue">nan</MDI>
+    <MDI key="lon#axis">X</MDI>
+    <MDI key="lon#long_name">longitude</MDI>
+    <MDI key="lon#standard_name">longitude</MDI>
+    <MDI key="lon#units">degrees_east</MDI>
+    <MDI key="lon#_FillValue">nan</MDI>
+    <MDI key="mask#coordinates">time</MDI>
+    <MDI key="mask#_FillValue">nan</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">666</MDI>
+      <MDI key="STATISTICS_MEAN">6.9231958762887</MDI>
+      <MDI key="STATISTICS_STDDEV">67.549373146364</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
