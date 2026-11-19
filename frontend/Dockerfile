@@ -21,6 +21,6 @@ RUN pnpm run build
 #
 #   run stage
 #
-FROM nginxinc/nginx-unprivileged:stable-alpine-slim
+FROM nginx/nginx-unprivileged:1.31.9-alpine-slim
 
 COPY --from=build /app/dist/www /usr/share/nginx/html
